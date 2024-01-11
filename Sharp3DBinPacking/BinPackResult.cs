@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Sharp3DBinPacking
+namespace Sharp3DBinPacking;
+
+public class BinPackResult(IList<IList<Cuboid>> bestResult)
 {
-    public class BinPackResult
-    {
-        public IList<IList<Cuboid>> BestResult { get; private set; }
-
-        public BinPackResult(IList<IList<Cuboid>> bestResult)
-        {
-            BestResult = bestResult;
-        }
-    }
+    public IList<IList<Cuboid>> BestResult { get; private set; } = bestResult;
 }

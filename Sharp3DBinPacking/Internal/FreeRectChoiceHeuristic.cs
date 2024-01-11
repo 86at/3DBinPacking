@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Sharp3DBinPacking.Internal;
 
-namespace Sharp3DBinPacking.Internal
+public enum FreeRectChoiceHeuristic
 {
-    public enum FreeRectChoiceHeuristic
-    {
-        RectBestAreaFit,
-        RectBestShortSideFit,
-    }
+    RectBestAreaFit,
+    RectBestShortSideFit
 }

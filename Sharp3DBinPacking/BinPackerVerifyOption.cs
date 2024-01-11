@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Sharp3DBinPacking;
 
-namespace Sharp3DBinPacking
+public enum BinPackerVerifyOption
 {
-    public enum BinPackerVerifyOption
-    {
-        BestOnly = 0,
-        All = 1,
-        None = 2
-    }
+    BestOnly = 0,
+    All = 1,
+    None = 2
 }

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Sharp3DBinPacking;
 
-namespace Sharp3DBinPacking
+public interface IBinPacker
 {
-    public interface IBinPacker
-    {
-        BinPackResult Pack(BinPackParameter parameter);
-    }
+    BinPackResult Pack(BinPackParameter parameter);
 }

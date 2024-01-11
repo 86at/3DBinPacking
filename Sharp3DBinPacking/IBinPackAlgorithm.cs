@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Sharp3DBinPacking
+namespace Sharp3DBinPacking;
+
+public interface IBinPackAlgorithm
 {
-    public interface IBinPackAlgorithm
-    {
-        void Insert(IEnumerable<Cuboid> cuboids);
-    }
+    void Insert(IEnumerable<Cuboid> cuboids);
 }

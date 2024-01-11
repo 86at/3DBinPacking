@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Sharp3DBinPacking.Internal;
 
-namespace Sharp3DBinPacking.Internal
+public enum FreeCuboidChoiceHeuristic
 {
-    public enum FreeCuboidChoiceHeuristic
-    {
-        CuboidMinHeight
-    }
+    CuboidMinHeight
 }
